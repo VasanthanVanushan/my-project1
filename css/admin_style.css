@@ -1,0 +1,37 @@
+@import url('components.css');
+
+.dashboard{
+    background-color: var(--grey);
+}
+
+.dashboard .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+   gap:1.5rem;
+   align-items: flex-start;
+}
+
+.dashboard .box-container .box{
+   padding:1.5rem;
+   text-align: center;
+   border:var(--border);
+   box-shadow: var(--box-shadow);
+   background-color: var(--black);
+   border-radius: 0.5rem;
+}
+
+.dashboard .box-container .box h3{
+   font-size: 3.5rem;
+   color:var(--white);
+}
+
+.dashboard .box-container .box p{
+   font-size: 2rem;
+   padding:1.5rem;
+   margin:1rem 0;
+   border:var(--border);
+   border-radius: .5rem;
+   color:var(--black);
+   background-color: var(--white);
+}
+
