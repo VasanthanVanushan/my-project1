@@ -170,6 +170,8 @@
 
 
 
+
+
 .placed-orders .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 33rem);
@@ -179,9 +181,9 @@
 }
 
 .placed-orders .box-container .box{
-   border:var(--border);
+   border:var(--borde_grey);
    box-shadow: var(--box-shadow);
-   background-color: var(--white);
+   background-color: var(--black);
    border-radius: .5rem;
    padding:2rem;
 }
@@ -190,22 +192,26 @@
    margin-bottom: 1rem;
    line-height: 1.5;
    font-size: 2rem;
-   color:var(--light-color);
+   color:var(--white);
 }
 
 .placed-orders .box-container .box p span{
-   color:var(--green);
+   color:var(--orange);
 }
 
 .placed-orders .box-container .box .drop-down{
    width: 100%;
    padding:1.2rem 1.4rem;
    font-size: 1.8rem;
-   border:var(--border);
+   border:var(--border_grey);
    border-radius: .5rem;
-   background-color: var(--light-bg);
-   margin-bottom: .5rem;
+   background-color: var(--white);
+   margin-bottom: 0.5rem;
 }
+
+
+
+
 
 .user-accounts .box-container{
    display: grid;
@@ -243,6 +249,11 @@
    color:var(--green);
 }
 
+
+
+
+
+
 .messages .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 33rem);
@@ -252,10 +263,10 @@
 }
 
 .messages .box-container .box{
-   border:var(--border);
+   border:var(--border_grey);
    box-shadow: var(--box-shadow);
-   background-color: var(--white);
-   border-radius: .5rem;
+   background-color: var(--black);
+   border-radius: 0.5rem;
    padding:2rem;
 }
 
@@ -263,11 +274,11 @@
    line-height: 1.5;
    padding:.5rem 0;
    font-size: 2rem;
-   color:var(--light-color);
+   color:var(--white);
 }
 
 .messages .box-container .box p span{
-   color:var(--green);
+   color:var(--orange);
 }
 
 

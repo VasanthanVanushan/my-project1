@@ -68,7 +68,6 @@ if (isset($_POST['update_profile'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -81,9 +80,7 @@ if (isset($_POST['update_profile'])) {
 
     <?php include 'admin_header.php';     ?>
 
-
     <section class="update-profile">
-
         <h1 class="title">Update Profile</h1>
 
         <?php
@@ -116,6 +113,7 @@ if (isset($_POST['update_profile'])) {
                     <input type="password" name="confirm_pass" placeholder="Confirm new password" class="input-box">
                 </div>
             </div>
+            
             <div class="flex-btn">
                 <input type="submit" class="btn" value="update profile" name="update_profile">
                 <a href="admin_page.php" class="option-btn">go back</a>

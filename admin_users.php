@@ -16,7 +16,6 @@ if(isset($_GET['delete'])){
    $delete_users = $conn->prepare("DELETE FROM `users` WHERE id = ?");
    $delete_users->execute([$delete_id]);
    header('location:admin_users.php');
-
 }
 
 ?>
