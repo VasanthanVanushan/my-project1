@@ -222,9 +222,9 @@
 }
 
 .user-accounts .box-container .box{
-   border:var(--border);
+   border:var(--border_grey);
    box-shadow: var(--box-shadow);
-   background-color: var(--white);
+   background-color: var(--black);
    border-radius: .5rem;
    padding:2rem;
    text-align: center;
@@ -242,11 +242,11 @@
    line-height: 1.5;
    padding:.5rem 0;
    font-size: 2rem;
-   color:var(--light-color);
+   color:var(--white);
 }
 
 .user-accounts .box-container .box p span{
-   color:var(--green);
+   color:var(--grey);
 }
 
 
