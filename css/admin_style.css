@@ -35,3 +35,125 @@
    background-color: var(--white);
 }
 
+
+
+.add-products form{
+   max-width: 70rem;
+   padding:2rem;
+   margin:0 auto;
+   text-align: center;
+   border:var(--border_grey);
+   box-shadow: var(--box-shadow);
+   background-color: var(--black);
+   border-radius: 0.5rem;
+}
+
+.add-products form .flex{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.add-products form .flex .box{
+   width: 49%;
+}
+
+.add-products form .input-box{
+   width: 100%;
+   margin:1rem 0;
+   padding:1.2rem 1.4rem;
+   font-size: 1.8rem;
+   color:var(--white);
+   border-radius: .5rem;
+   background-color: var(--black);
+   border:var(--border_grey);
+}
+.add-products form .input-box option{
+   color:var(--white);
+}
+
+
+.add-products form .input-box::placeholder{
+   color:var(--white);
+   opacity: 0.8;
+}
+
+.add-products form textarea{
+   height: 20rem;
+   resize: none;
+}
+
+
+
+.show-products{
+   padding-top: 0;
+}
+
+.show-products .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 33rem);
+   gap:1.5rem;
+   align-items: flex-start;
+   justify-content:center;
+}
+
+.show-products .box-container .show_box{
+   text-align: center;
+   border:var(--border);
+   box-shadow: var(--box-shadow);
+   border-radius: 0.5rem;
+   padding:2rem;
+   position: relative;
+   background-color: var(--black);
+}
+
+.show-products .box-container .show_box .price{
+   position: absolute;
+   top:1rem; left:1rem;
+   padding:1rem;
+   font-size: 2rem;
+   color:var(--white);
+   background-color: var(--red);
+   border-radius: .5rem;
+}
+
+.show-products .box-container .show_box img{
+   object-fit: cover;
+   width:100%;
+}
+
+.show-products .box-container .show_box .name{
+   margin:.5rem 0;
+   font-size: 2rem;
+   color:var(--white);
+}
+
+.show-products .box-container .show_box .cat{
+   font-size: 1.8rem;
+   color:var(--grey);
+}
+
+.show-products .box-container .show_box .details{
+   padding-top: 1rem;
+   font-size: 1.5rem;
+   line-height: 1.5;
+   color:var(--grey);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:750px){
+
+   .add-products form .flex .box{
+      width: 100%;
+   }
+
+}
+

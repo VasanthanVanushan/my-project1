@@ -5,8 +5,8 @@
 :root{
     --grey:rgb(193, 190, 190);
     --green:#2e7d32;
-    --orange:#f29a16;
-    --red:#e4402e;
+    --orange:#ee8f00;
+    --red:#ce1602;
     --blue:#007BFF;
     --black:#181717;
     --white:#fff;
@@ -44,6 +44,13 @@
     background-color: var(--grey);
 }
 
+.disabled{
+   user-select: none;
+   pointer-events: none;
+   opacity: 0.6;
+}
+
+
 body{
     background-color: var(--white);
 }
@@ -80,13 +87,13 @@ section{
 }
 
 .btn{
-    background-color: var(--blue);
+    background-color: var(--orange);
 }
 .delete-btn{
     background-color: var(--red);
 }
 .option-btn{
-    background-color: var(--orange);
+    background-color: var(--grey);
 }
 
 .btn:hover,
@@ -95,6 +102,16 @@ section{
     filter: brightness(70%);
 }
 
+
+.flex-btn{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1rem;
+}
+
+.flex-btn > *{
+   flex:1;
+}
 
 .message{
     position:sticky;
@@ -180,7 +197,7 @@ section{
 
 .form-container form p a:hover{
     text-decoration: underline;
-    color:var(--green);
+    color:var(--orange);
 }
 
 
@@ -272,7 +289,6 @@ section{
    font-size: 2rem;
    color:var(--white);
 }
-
 
 .title{
     text-align: center;
@@ -452,7 +468,10 @@ section{
         font-size: 50%;
     }
 
-
+    .flex-btn{
+        flex-flow: column;
+        gap:0;
+   }
    .title{
         font-size:2.5rem;
    }
