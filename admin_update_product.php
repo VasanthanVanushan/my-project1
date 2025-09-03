@@ -118,5 +118,4 @@ if (isset($_POST['update_product'])) {
     <script src="js/script.js"></script>
 
 </body>
-
 </html>
