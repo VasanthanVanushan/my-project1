@@ -91,12 +91,12 @@
                     <input type="text" name="name" class="input-box" required placeholder="enter product name">
                     <select name="category" class="input-box" required>
                         <option value="" selected disabled>Select category</option>
-                        <option value="groceries">Groceries & Essentials</option>
-                        <option value="spreads">Spreads & Breakfast Items</option>
-                        <option value="snacks">Snacks & Biscuits</option>
-                        <option value="beverages">Beverages & Drinks</option>
-                        <option value="household">Cleaning & Household Items</option>
-                        <option value="personalcare">Personal Care & Hygiene</option>
+                        <option value="Groceries_Essentials">Groceries & Essentials</option>
+                        <option value="Spreads_Breakfast">Spreads & Breakfast Items</option>
+                        <option value="Snacks_Biscuits">Snacks & Biscuits</option>
+                        <option value="Beverages_Drinks">Beverages & Drinks</option>
+                        <option value="Cleaning_Household">Cleaning & Household Items</option>
+                        <option value="PersonalCare_Hygiene">Personal Care & Hygiene</option>
                     </select>
                 </div>
                 <div class="box">

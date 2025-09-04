@@ -88,10 +88,12 @@ if (isset($_POST['update_product'])) {
                     <input type="number" name="price" min="0" placeholder="Enter product price" required class="input-box" value="<?= $fetch_products['price']; ?>">
                     <select name="category" class="input-box" required>
                         <option selected><?= $fetch_products['category']; ?></option>
-                        <option value="vegitables">vegitables</option>
-                        <option value="fruits">fruits</option>
-                        <option value="meat">meat</option>
-                        <option value="fish">fish</option>
+                        <option value="Groceries_Essentials">Groceries & Essentials</option>
+                        <option value="Spreads_Breakfast">Spreads & Breakfast Items</option>
+                        <option value="Snacks_Biscuits">Snacks & Biscuits</option>
+                        <option value="Beverages_Drinks">Beverages & Drinks</option>
+                        <option value="Cleaning_Household">Cleaning & Household Items</option>
+                        <option value="PersonalCare_Hygiene">Personal Care & Hygiene</option>
                     </select>
                     <textarea name="details" required placeholder="Enter product details" class="input-box" cols="30" rows="10"><?= $fetch_products['details']; ?></textarea>
                     <input type="file" name="image" class="input-box" accept="image/jpg, image/jpeg, image/png">
