@@ -88,7 +88,7 @@
         <form action="" method="POST" enctype="multipart/form-data">
             <div class="flex">
                 <div class="box">
-                    <input type="text" name="name" class="input-box" required placeholder="enter product name">
+                    <input type="text" name="name" class="input-box" required placeholder="Enter product name">
                     <select name="category" class="input-box" required>
                         <option value="" selected disabled>Select category</option>
                         <option value="Groceries_Essentials">Groceries & Essentials</option>
@@ -100,11 +100,11 @@
                     </select>
                 </div>
                 <div class="box">
-                    <input type="number" min="0" name="price" class="input-box" required placeholder="enter product price">
+                    <input type="number" min="0" name="price" class="input-box" required placeholder="Enter product price">
                     <input type="file" name="image" required class="input-box" accept="image/jpg, image/jpeg, image/png">
                 </div>
             </div>
-            <textarea name="details" class="input-box" required placeholder="enter product details" cols="30" rows="10"></textarea>
+            <textarea name="details" class="input-box" required placeholder="Enter product details" cols="30" rows="10"></textarea>
             <input type="submit" class="btn" value="add product" name="add_product">
         </form>
     </section>

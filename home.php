@@ -165,10 +165,10 @@
         <div class="box-container">
 
             <?php
-            $select_products = $conn->prepare("SELECT * FROM `products` LIMIT 6");
-            $select_products->execute();
-            if ($select_products->rowCount() > 0) {
-                while ($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)) {
+                $select_products = $conn->prepare("SELECT * FROM `products` LIMIT 3");
+                $select_products->execute();
+                if ($select_products->rowCount() > 0) {
+                    while ($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)) {
             ?>
                     <form action="" class="box" method="POST">
                         <div class="price">$<span><?= $fetch_products['price']; ?></span>/-</div>
