@@ -91,10 +91,12 @@
                     <input type="text" name="name" class="input-box" required placeholder="enter product name">
                     <select name="category" class="input-box" required>
                         <option value="" selected disabled>Select category</option>
-                        <option value="vegitables">vegitables</option>
-                        <option value="fruits">fruits</option>
-                        <option value="meat">meat</option>
-                        <option value="fish">fish</option>
+                        <option value="groceries">Groceries & Essentials</option>
+                        <option value="spreads">Spreads & Breakfast Items</option>
+                        <option value="snacks">Snacks & Biscuits</option>
+                        <option value="beverages">Beverages & Drinks</option>
+                        <option value="household">Cleaning & Household Items</option>
+                        <option value="personalcare">Personal Care & Hygiene</option>
                     </select>
                 </div>
                 <div class="box">

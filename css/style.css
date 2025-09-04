@@ -47,8 +47,8 @@
 
 .home-category .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 27rem);
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 2rem;
     justify-content: center;
     align-items: flex-start;
 }

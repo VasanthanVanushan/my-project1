@@ -111,31 +111,45 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="images/.png" alt="">
-                <h3>fruits</h3>
+                <img src="images/groceries_main.webp" alt="groceries">
+                <h3>Groceries & Essentials</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
-                <a href="category.php?category=fruits" class="btn">fruits</a>
+                <a href="category.php?category=groceries" class="btn">Groceries</a>
             </div>
 
             <div class="box">
-                <img src="images/.png" alt="">
-                <h3>meat</h3>
+                <img src="images/spreads_main.webp" alt="spreads">
+                <h3>Spreads & Breakfast Items</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
-                <a href="category.php?category=meat" class="btn">meat</a>
+                <a href="category.php?category=spreads" class="btn">Spreads</a>
             </div>
 
             <div class="box">
-                <img src="images/.png" alt="">
-                <h3>vegitables</h3>
+                <img src="images/snacks_main.png" alt="snacks">
+                <h3>Snacks & Biscuits</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
-                <a href="category.php?category=vegitables" class="btn">vegitables</a>
+                <a href="category.php?category=snacks" class="btn">Snacks</a>
             </div>
 
             <div class="box">
-                <img src="images/.png" alt="">
-                <h3>fish</h3>
+                <img src="images/beverages_main.png" alt="beverages">
+                <h3>Beverages & Drinks</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
-                <a href="category.php?category=fish" class="btn">fish</a>
+                <a href="category.php?category=beverages" class="btn">Beverages</a>
+            </div>
+
+            <div class="box">
+                <img src="images/household_main.png" alt="household_items">
+                <h3>Cleaning & Household Items</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+                <a href="category.php?category=household" class="btn">Cleaning Items</a>
+            </div>
+
+            <div class="box">
+                <img src="images/personalcare_main.png" alt="personal care">
+                <h3>Personal Care & Hygiene</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+                <a href="category.php?category=personalcare" class="btn">Care Items</a>
             </div>
         </div>
     </section>
