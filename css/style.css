@@ -30,7 +30,7 @@
 }
 
 .home-bg .home .content p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 1rem 0;
     line-height: 2;
     color: var(--grey);
@@ -76,6 +76,7 @@
 
 .home-category .box-container .box p {
     line-height: 2;
+    text-align: left;
     font-size: 1.5rem;
     color: var(--white);
     padding: 0.5rem 0;

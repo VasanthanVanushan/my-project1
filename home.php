@@ -95,8 +95,8 @@
 
         <section class="home">
             <div class="content">
-                <h3>Reach For A Healthier You With Organic Foods</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto natus culpa officia quasi, accusantium explicabo?</p>
+                <h3>“Your Everyday Essentials, All in One Place.”</h3>
+                <p>Welcome to VK3 MegaMart, your one-stop supermarket for fresh groceries, tasty snacks, refreshing beverages, and trusted household essentials. We’ve got everything you need for your daily life—conveniently under one roof.</p>
                 <a href="about.php" class="btn">about us</a>
             </div>
         </section>
@@ -113,42 +113,42 @@
             <div class="box">
                 <img src="images/groceries_main.webp" alt="groceries">
                 <h3>Groceries & Essentials</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+                <p>“From flour and sugar to everyday staples—everything you need to keep your kitchen running, all in one place.”</p>
                 <a href="category.php?category=groceries" class="btn">Groceries</a>
             </div>
 
             <div class="box">
                 <img src="images/spreads_main.webp" alt="spreads">
                 <h3>Spreads & Breakfast Items</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+                <p>“Kick-start your mornings with our delicious range of jams, peanut butters, and Milo favorites.”</p>
                 <a href="category.php?category=spreads" class="btn">Spreads</a>
             </div>
 
             <div class="box">
                 <img src="images/snacks_main.png" alt="snacks">
                 <h3>Snacks & Biscuits</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+                <p>“Treat yourself to crunchy biscuits, tasty cookies, and light snacks made for every craving.”</p>
                 <a href="category.php?category=snacks" class="btn">Snacks</a>
             </div>
 
             <div class="box">
                 <img src="images/beverages_main.png" alt="beverages">
                 <h3>Beverages & Drinks</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+                <p>“Stay refreshed with juice packs, Smak drinks, Milo, and more energizing sips for any time of day.”</p>
                 <a href="category.php?category=beverages" class="btn">Beverages</a>
             </div>
 
             <div class="box">
                 <img src="images/household_main.png" alt="household_items">
                 <h3>Cleaning & Household Items</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+                <p>“Keep your home spotless and shining with our trusted cleaning powders and household essentials.”</p>
                 <a href="category.php?category=household" class="btn">Cleaning Items</a>
             </div>
 
             <div class="box">
                 <img src="images/personalcare_main.png" alt="personal care">
                 <h3>Personal Care & Hygiene</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+                <p>“From soaps to shampoos, find everything you need to feel fresh, clean, and confident every day.”</p>
                 <a href="category.php?category=personalcare" class="btn">Care Items</a>
             </div>
         </div>
