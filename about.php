@@ -32,14 +32,14 @@
     <section class="about">
         <div class="row">
             <div class="box">
-                <img src="images/about-img-1.png" alt="">
+                <img src="images/why_choose_us.jpg" alt="">
                 <h3>why choose us?</h3>
                 <p>At VK3 Mart, we believe shopping should be simple, convenient, and enjoyable. That’s why we bring together everything you need under one roof—from daily groceries to household essentials—so you don’t have to run from store to store. With our commitment to trusted quality, affordable prices, and friendly service, we make sure every customer leaves with a smile and the satisfaction of a stress-free shopping experience.</p>
                 <a href="contact.php" class="btn">contact us</a>
             </div>
 
             <div class="box">
-                <img src="images/about-img-2.png" alt="">
+                <img src="images/what_we_provide.svg" alt="">
                 <h3>what we provide?</h3>
                 <p>We provide a wide range of products to meet all your daily needs. From groceries and staples like flour and sugar, to delicious spreads, breakfast items, and biscuits, our shelves are stocked with care. You’ll also find refreshing beverages including juice packets, Smak juices, and Milo, alongside reliable household items such as soaps, shampoos, and cleaning powders. Whatever you need for your home or family, VK3 Mart is here to provide it with quality and convenience.</p>
                 <a href="shop.php" class="btn">our shop</a>
@@ -54,8 +54,8 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="images/pic-1.png" alt="">
-                <h3>Amillthan</h3>
+                <img src="images/abivarman.jpg" alt="">
+                <h3>Abivarman</h3>
                 <p>“Every trip to VK3 Mart is a pleasure—always find what I need, plus something delightful!”</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -67,8 +67,8 @@
             </div>
 
             <div class="box">
-                <img src="images/pic-2.png" alt="">
-                <h3>Krishnapiriyan</h3>
+                <img src="images/jekki.jpg" alt="">
+                <h3>Jekki</h3>
                 <p>“Great selection and helpful staff. It feels like they know exactly what I’m shopping for.”</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -80,8 +80,8 @@
             </div>
 
             <div class="box">
-                <img src="images/pic-3.png" alt="">
-                <h3>Ronald</h3>
+                <img src="images/abiyan.jpg" alt="">
+                <h3>Abiyan</h3>
                 <p>“Clean aisles, warm service, and good prices—shopping here always puts me in a good mood.”</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
