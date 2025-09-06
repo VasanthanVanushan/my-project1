@@ -46,7 +46,7 @@
                         <p> Address : <span><?= $fetch_orders['address']; ?></span> </p>
                         <p> Payment method : <span><?= $fetch_orders['method']; ?></span> </p>
                         <p> Your orders : <span><?= $fetch_orders['total_products']; ?></span> </p>
-                        <p> Total price : <span>$<?= $fetch_orders['total_price']; ?>/-</span> </p>
+                        <p> Total price : <span>LKR <?= $fetch_orders['total_price']; ?>/-</span> </p>
                         <p> Payment status : <span style="color:<?php if ($fetch_orders['payment_status'] == 'pending') {
                                                                     echo 'red';
                                                                 } else {

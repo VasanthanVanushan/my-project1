@@ -18,3 +18,24 @@ window.onscroll = () => {
     profile.classList.remove('active');
     navbar.classList.remove('active');
 }
+
+
+
+
+
+
+// Save scroll position before reload (with page-specific key)
+window.onbeforeunload = function() {
+    let key = "scrollPosition-" + window.location.pathname;
+    localStorage.setItem(key, window.scrollY);
+};
+
+// Restore scroll position only for this page
+window.onload = function() {
+    let key = "scrollPosition-" + window.location.pathname;
+    let pos = localStorage.getItem(key);
+    if (pos) {
+        window.scrollTo(0, pos);
+    }
+};
+

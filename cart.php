@@ -68,13 +68,13 @@
                         <a href="view_page.php?pid=<?= $fetch_cart['pid']; ?>" class="fas fa-eye"></a>
                         <img src="uploaded_img/<?= $fetch_cart['image']; ?>" alt="">
                         <div class="name"><?= $fetch_cart['name']; ?></div>
-                        <div class="price">$<?= $fetch_cart['price']; ?>/-</div>
+                        <div class="price">LKR <?= $fetch_cart['price']; ?>/-</div>
                         <input type="hidden" name="cart_id" value="<?= $fetch_cart['id']; ?>">
                         <div class="flex-btn">
                             <input type="number" min="1" value="<?= $fetch_cart['quantity']; ?>" class="qty" name="p_qty">
                             <input type="submit" value="update" name="update_qty" class="btn">
                         </div>
-                        <div class="sub-total"> Sub total : <span>$<?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/-</span> </div>
+                        <div class="sub-total"> Sub total : <span>LKR <?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/-</span> </div>
                     </form>
             <?php
                     $grand_total += $sub_total;
@@ -86,7 +86,7 @@
         </div>
 
         <div class="cart-total">
-            <p>Grand Total : <span>$<?= $grand_total; ?>/-</span></p>
+            <p>Grand Total : <span>LKR <?= $grand_total; ?>/-</span></p>
             <a href="shop.php" class="option-btn">continue shopping</a>
             <a href="cart.php?delete_all" class="delete-btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>">delete all</a>
             <a href="checkout.php" class="btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>">proceed to checkout</a>
