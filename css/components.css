@@ -233,7 +233,7 @@ section{
     font-family: 'oxanium';
     margin: 0 1rem;
     text-decoration: none;
-    font-size:2rem;
+    font-size:2.3rem;
     color:var(--grey);
 }
 
@@ -243,24 +243,31 @@ section{
 }
 
 
-.header .flex .icons > *
-{
-    margin-left: 2.5rem;
+.header .flex .icons > *{
+   font-size: 2.5rem;
+   color:var(--grey);
+   cursor: pointer;
+   margin-left: 2rem;
 }
 
-.header .flex .icons > *,
-.header .flex .icons a> *
-{
-    font-size: 2.5rem;
+.header .flex .icons a i{
     color:var(--grey);
 }
 
+.header .flex .icons a span{
+   color:var(--white);
+}
 
 .header .flex .icons > *:hover,
-.header .flex .icons a > *:hover
-{
-    color:var(--orange);
+.header .flex .icons a:hover span,
+.header .flex .icons a:hover i{
+   color:var(--orange);
 }
+
+.header .flex .icons a span{
+   font-size: 2rem;
+}
+
 
 #menu-btn{
     display:none;

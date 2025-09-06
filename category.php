@@ -97,11 +97,11 @@ if (isset($_POST['add_to_cart'])) {
         <div class="box-container">
 
             <?php
-            $category_name = $_GET['category'];
-            $select_products = $conn->prepare("SELECT * FROM `products` WHERE category = ?");
-            $select_products->execute([$category_name]);
-            if ($select_products->rowCount() > 0) {
-                while ($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)) {
+                $category_name = $_GET['category'];
+                $select_products = $conn->prepare("SELECT * FROM `products` WHERE category = ?");
+                $select_products->execute([$category_name]);
+                if ($select_products->rowCount() > 0) {
+                    while ($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)) {
             ?>
                     <form action="" class="box" method="POST">
                         <div class="price">LKR <span><?= $fetch_products['price']; ?></span>/-</div>
@@ -126,8 +126,6 @@ if (isset($_POST['add_to_cart'])) {
         </div>
 
     </section>
-
-
 
 
 

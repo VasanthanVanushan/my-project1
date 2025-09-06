@@ -189,18 +189,17 @@
 .p-category a {
     padding: 1.5rem;
     text-align: center;
-    border: var(--border);
-    background-color: var(--grey);
+    border: var(--border_grey);
+    background-color: var(--black);
     box-shadow: var(--box-shadow);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     font-size: 2rem;
     text-transform: capitalize;
-    color: var(--black);
+    color: var(--white);
 }
 
 .p-category a:hover {
-    background-color: var(--black);
-    color: var(--white);
+    filter: brightness(70%);
 }
 
 
