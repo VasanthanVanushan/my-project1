@@ -20,6 +20,12 @@ window.onscroll = () => {
 }
 
 
+document.querySelectorAll(".navbar a, .icons a").forEach(link => {
+    if (link.pathname === window.location.pathname) {
+        link.classList.add("active");
+    }
+});
+
 
 
 

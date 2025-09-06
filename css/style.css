@@ -42,9 +42,6 @@
 }
 
 
-
-
-
 .home-category .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 35rem);
@@ -64,6 +61,7 @@
 
 .home-category .box-container .box img {
     width: 100%;
+    height:28rem;
     margin-bottom: 1rem;
 }
 
@@ -132,7 +130,7 @@
 
 .products .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 29rem);
+    grid-template-columns: repeat(auto-fit, 35rem);
     gap: 1.5rem;
     justify-content: center;
     align-items: flex-start;
@@ -186,6 +184,7 @@
 
 .products .box-container .box img {
     width: 100%;
+    height:30rem;
     margin-bottom: 1rem;
 }
 
@@ -512,6 +511,7 @@
 
 .wishlist .box-container .box img{
    width: 100%;
+   height:30rem;
    margin-bottom: 1rem;
 }
 
@@ -634,6 +634,7 @@
 
 .shopping-cart .box-container .box img{
    width: 100%;
+   height:30rem;
    margin-bottom: 1rem;
 }
 
