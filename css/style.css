@@ -134,7 +134,7 @@
     height: 4.5rem;
     line-height: 4.3rem;
     width: 5rem;
-    border: var(--border_grey);
+    border: var(--border);
     color: var(--white);
     font-size: 2rem;
     background-color: var(--black);
@@ -471,7 +471,7 @@
    height: 4.5rem;
    line-height: 4.3rem;
    width: 5rem;
-   border:var(--border_grey);
+   border:var(--border);
    color:var(--white);
    font-size: 2rem;
    background-color: var(--black);
@@ -592,7 +592,7 @@
    height: 4.5rem;
    line-height: 4.3rem;
    width: 5rem;
-   border:var(--border_grey);
+   border:var(--border);
    color:var(--white);
    font-size: 2rem;
    background-color: var(--black);
@@ -613,7 +613,7 @@
    color:var(--white);
    font-size: 2rem;
    background-color: var(--red);
-   border:var(--border_grey);
+   border:var(--border);
 }
 
 .shopping-cart .box-container .box .fa-times:hover{
