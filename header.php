@@ -31,6 +31,9 @@ if(isset($message))
 
         <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="search_page.php"><div id="search-btn" class="fas fa-search"></div></a>
+            <a href="wishlist.php"><div id="wishlist-btn" class="fas fa-heart"></div></a>
+            <a href="cart.php"><div id="cart-btn" class="fas fa-shopping-cart"></div></a>
             <div id="user-btn" class="fas fa-user"></div>
         </div>
 

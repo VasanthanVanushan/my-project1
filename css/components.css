@@ -242,14 +242,24 @@ section{
     text-decoration:underline;
 }
 
-.header .flex .icons > *{
+
+.header .flex .icons > *
+{
+    margin-left: 2.5rem;
+}
+
+.header .flex .icons > *,
+.header .flex .icons a> *
+{
     font-size: 2.5rem;
-    margin-left:2.5rem;
     color:var(--grey);
 }
 
-.header .flex .icons > *:hover{
-    color:var(--white);
+
+.header .flex .icons > *:hover,
+.header .flex .icons a > *:hover
+{
+    color:var(--orange);
 }
 
 #menu-btn{
@@ -359,7 +369,7 @@ section{
 .footer .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap:1.5rem;
+    gap:4.2rem;
     align-items: flex-start;
 }
 

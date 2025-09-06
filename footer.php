@@ -23,7 +23,7 @@
          <a href="tel:+94 763967459"><i class="fas fa-phone"></i> +94 763967459</a>
          <a href="tel:+94 771936165"><i class="fas fa-phone"></i> +94 771936165</a>
          <a href="mailto:jhcvanushan001@gmail.com"><i class="fas fa-envelope"></i> jhcvanushan001@gmail.com</a>
-         <a href="https://www.google.com/myplace"><i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+         <a href="https://www.google.com/maps/place/Vasanthan+Cool+Bar/@9.6584125,80.0132072,17z/data=!3m1!4b1!4m6!3m5!1s0x3afe5700620d5a1d:0xad1b11d785697254!8m2!3d9.6584125!4d80.0180781!16s%2Fg%2F11ldknf54b?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D"><i class="fas fa-map-marker-alt"></i> Vasanthan Cream House </a>
       </div>
 
       <div class="grid_box">
