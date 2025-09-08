@@ -1,14 +1,14 @@
 <?php
 
-    @include 'config.php';
+@include 'config.php';
 
-    session_start();
+session_start();
 
-    $user_id = $_SESSION['user_id'];
+$user_id = $_SESSION['user_id'];
 
-    if (!isset($user_id)) {
-        header('location:login.php');
-    }
+if (!isset($user_id)) {
+    header('location:login.php');
+}
 
 ?>
 
@@ -49,50 +49,160 @@
     </section>
 
 
+
+
+    <!-- Swiper container -->
     <section class="reviews">
         <h1 class="title">clients reviews</h1>
-        <div class="box-container">
 
-            <div class="box">
-                <img src="images/abivarman.jpg" alt="">
-                <h3>Abivarman</h3>
-                <p>“Every trip to VK3 Mart is a pleasure—always find what I need, plus something delightful!”</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img src="images/abivarman.jpg" alt="">
+                    <h3>Abivarman</h3>
+                    <p>“Every trip to VK3 Mart is a pleasure—always find what I need, plus something delightful!”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
+
+                <div class="swiper-slide">
+                    <img src="images/jekki.jpg" alt="">
+                    <h3>Jekki</h3>
+                    <p>“Great selection and helpful staff. It feels like they know exactly what I’m shopping for.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="images/abiyan.jpg" alt="">
+                    <h3>Abiyan</h3>
+                    <p>“Clean aisles, warm service, and good prices—shopping here always puts me in a good mood.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="" alt="">
+                    <h3>KP</h3>
+                    <p>“Every trip to VK3 Mart is a pleasure—always find what I need, plus something delightful!”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="" alt="">
+                    <h3>Luxsi</h3>
+                    <p>“Great selection and helpful staff. It feels like they know exactly what I’m shopping for.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="" alt="">
+                    <h3>Amillthan</h3>
+                    <p>“Clean aisles, warm service, and good prices—shopping here always puts me in a good mood.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+
+                <!-- 🔹 Add more reviews as swiper-slide -->
             </div>
 
-            <div class="box">
-                <img src="images/jekki.jpg" alt="">
-                <h3>Jekki</h3>
-                <p>“Great selection and helpful staff. It feels like they know exactly what I’m shopping for.”</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/abiyan.jpg" alt="">
-                <h3>Abiyan</h3>
-                <p>“Clean aisles, warm service, and good prices—shopping here always puts me in a good mood.”</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
+            <!-- Pagination dots -->
+            <div class="swiper-pagination"></div>
         </div>
+
     </section>
+
+
+
+
+
+
+
+
+    <!-- Swiper JS & CSS -->
+    <!-- correct order -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script>
+        var swiper = new Swiper(".swiper", {
+            loop: true,
+            grabCursor: true,
+            spaceBetween: 30,
+            slidesPerView: 3, // Show 2 reviews at the same time
+            autoplay: {
+                delay: 5000, // 5 seconds
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1, // On small screens show 1 review
+                },
+                768: {
+                    slidesPerView: 2, // On tablets show 2 reviews
+                },
+                1100: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+    </script>
+
+    <style>
+        .swiper {
+            width: 100%;
+            padding-bottom: 3rem;
+        }
+
+        .swiper-pagination-bullet {
+            background: grey;
+            opacity: 0.7;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: black;
+            opacity: 1;
+        }
+    </style>
+
 
 
 
