@@ -779,6 +779,14 @@
    color: var(--red);
 }
 
+
+
+
+
+
+
+
+
 .placed-orders .box-container {
    display: flex;
    flex-wrap: wrap;
@@ -789,8 +797,8 @@
 .placed-orders .box-container .box {
    padding: 1rem 2rem;
    flex: 1 1 40rem;
-   border: var(--border);
-   background-color: var(--white);
+   border: var(--border_grey);
+   background-color: var(--black);
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
 }
@@ -799,11 +807,11 @@
    margin: .5rem 0;
    line-height: 1.8;
    font-size: 2rem;
-   color: var(--black);
+   color: var(--white);
 }
 
 .placed-orders .box-container .box p span {
-   color: var(--green);
+   color: var(--orange);
 }
 
 

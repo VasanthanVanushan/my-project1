@@ -22,11 +22,11 @@ if(isset($message))
         <a href="admin_page.php"><img src="VK3Logo.png" alt="logo" class="logo"></a>
 
         <nav class="navbar">
-            <a href="home.php">Home</a>
-            <a href="shop.php">Products</a>
-            <a href="orders.php">Orders</a>
-            <a href="about.php">About</a>
-            <a href="contact.php">Contact</a>
+            <a href="home.php">Home<span></span></a>
+            <a href="shop.php">Products<span></span></a>
+            <a href="orders.php">Orders<span></span></a>
+            <a href="about.php">About<span></span></a>
+            <a href="contact.php">Contact<span></span></a>
         </nav>
 
         <div class="icons">
