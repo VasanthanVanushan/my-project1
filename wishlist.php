@@ -78,7 +78,7 @@
 
     <section class="wishlist">
 
-        <h1 class="title">products added</h1>
+        <h1 class="title">Wish-List Products</h1>
 
         <div class="box-container">
 

@@ -94,7 +94,7 @@ if (!isset($admin_id)) {
             ?>
             <h3><?= $number_of_users; ?></h3>
             <p>Total users</p>
-            <a href="admin_users.php" class="btn">see accounts</a>
+            <a href="admin_users.php?type=user" class="btn">see accounts</a>
          </div>
 
          <div class="box">
@@ -105,7 +105,7 @@ if (!isset($admin_id)) {
             ?>
             <h3><?= $number_of_admins; ?></h3>
             <p>Total admins</p>
-            <a href="admin_users.php" class="btn">see accounts</a>
+            <a href="admin_users.php?type=admin" class="btn">see accounts</a>
          </div>
 
          <div class="box">
@@ -116,7 +116,7 @@ if (!isset($admin_id)) {
             ?>
             <h3><?= $number_of_accounts; ?></h3>
             <p>Total accounts</p>
-            <a href="admin_users.php" class="btn">see accounts</a>
+            <a href="admin_users.php?type=all" class="btn">see accounts</a>
          </div>
 
          <div class="box">

@@ -84,7 +84,8 @@ if(isset($_POST['submit']))
             <input type="password" name="password" class="input-box" placeholder="Enter your password" required>
             <input type="submit" name="submit" value="login now" class="btn">
         
-            <p>don't have an account? <a href="register.php">register now</a></p>
+            <p>don't have an account? <a href="register.php">Register Now</a></p>
+            <p>Continue as a guest? <a href="home.php">Guest Login</a></p>
         </form>
     </section>
 

@@ -243,6 +243,7 @@
    padding:.5rem 0;
    font-size: 2rem;
    color:var(--white);
+   text-align: left;
 }
 
 .user-accounts .box-container .box p span{

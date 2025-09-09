@@ -52,7 +52,7 @@
 
     <section class="shopping-cart">
 
-        <h1 class="title">products added</h1>
+        <h1 class="title">Carts</h1>
 
         <div class="box-container">
 
